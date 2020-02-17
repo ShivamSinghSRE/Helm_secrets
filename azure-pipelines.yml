@@ -1,0 +1,10 @@
+trigger:
+- master 
+
+pool: 'vs2017-win2016'
+
+steps:
+- - task: katalonTask@0
+inputs:
+    version: '6.2.0'
+    location: 'browserType="Chorme" -retry=0 statusdelays'
