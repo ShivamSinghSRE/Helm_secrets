@@ -7,4 +7,4 @@ steps:
 - task: katalonTask@0
   inputs:
     version: '6.2.0'
-    executeArgs: -BrowserType="Chorme" -retry=0 -statusDelays'
+    executeArgs: /-BrowserType="Chorme" -retry=0 -statusDelays'
